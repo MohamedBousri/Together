@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/ic_launcher_foreground"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colordark"
+                        android:text="1er jour sans la mauvaise habitude"
+                        android:paddingTop="40dp"
+
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/ic_launcher_foreground10"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="40dp"
+                        android:textColor="@color/colordark"
+                        android:text="1000 DA Economiser" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/ic_launcher_foreground12"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="40dp"
+                        android:textColor="@color/colordark"
+                        android:text="7 jour sans la mauvaise habitude" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/ic_launcher_foreground4"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="40dp"
+                        android:textColor="@color/colordark"
+                        android:text="5000 DA economisé" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/ic_launcher_foreground5"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="40dp"
+                        android:textColor="@color/colordark"
+
+                        android:text="30 jour sans la mauvaise habitude" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/ic_launcher_foreground6"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="40dp"
+                        android:textColor="@color/colordark"
+                        android:text="1 million cen" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints"
+
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="78dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_code"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="40dp"
+                        android:textColor="@color/colordark"
+                        android:text="objectif atteint" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

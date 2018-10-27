@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.toghether.toghether.add_badhabit"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+
+            <Spinner
+
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:entries="@array/ithem_array" />
+
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:text="Si Cette Mauvaise habitude vous coute de l'argent  , combien ca vous coute par jour ?"
+                        android:textColor="@color/text_color2"
+                        android:textColorLink="@android:color/background_dark" />
+
+                    <EditText
+                        android:id="@+id/EditText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:onClick="EditText1_click"
+                        android:text="DA"
+                        android:textColor="@color/text_color3" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:text="Si Cette Mauvaise habitude prend beaucoup de votre temps , combien vous perdez du temps par jour?"
+                        android:textColor="@color/text_color2"
+                        android:textColorLink="@android:color/background_dark" />
+
+                    <EditText
+                        android:id="@+id/EditText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:onClick="EditText2_click"
+                        android:text="Minute"
+                        android:textColor="@color/text_color3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:text="Définit un objectif on nombre de jour , pour que vous arrétez cette mauvaise habitude"
+                        android:textColor="@color/text_color2"
+                        android:textColorLink="@android:color/background_dark" />
+
+                    <EditText
+                        android:id="@+id/EditText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:onClick="EditText3_click"
+                        android:text="Jour"
+                        android:textColor="@color/text_color3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    android:textColorLink="@android:color/background_dark" />
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="345dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+
+                    android:background="@drawable/mybutton"
+                    android:onClick="confirmer_click"
+                    android:text="Confirmer" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="345dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="80dp"
+
+                    android:background="@drawable/mybutton"
+                    android:onClick="annuler_click"
+                    android:text="Annuler" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
